@@ -1,15 +1,22 @@
 .explore {
-    height: 100vh;
+    height: 852px;
     background-image: url(../img/png/background-1.png);
     background-size: cover;
     background-position: bottom;
     background-repeat: no-repeat;
 }
 .explore__header {
+    height: 80px;
 }
 .explore__header-container {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .explore__logo {
+    font-weight: 800;
+    font-size: 28px;
 }
 .explore__menu {
 }
