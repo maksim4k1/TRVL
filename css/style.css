@@ -1,0 +1,19 @@
+.explore {
+    height: 100vh;
+    background-image: url(../img/png/background-1.png);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+.explore__header {
+}
+.explore__header-container {
+}
+.explore__logo {
+}
+.explore__menu {
+}
+.explore__title {
+}
+.explore__subtitle {
+}
