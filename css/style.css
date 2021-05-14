@@ -9,6 +9,7 @@
     height: 80px;
 }
 .explore__header-container {
+    padding: 0 40px;
     height: 100%;
     display: flex;
     justify-content: space-between;
@@ -18,9 +19,17 @@
     font-weight: 800;
     font-size: 28px;
 }
-.explore__menu {
-}
 .explore__title {
+    margin: 254px 0 0;
+    padding: 0 0 0 45px;
+    font-size: 150px;
+    letter-spacing: 0.3em;
+    text-align: center;
 }
 .explore__subtitle {
+    margin: 70px 0 0;
+    font-size: 28px;
+    line-height: 34px;
+    letter-spacing: 0.1em;
+    text-align: center;
 }
