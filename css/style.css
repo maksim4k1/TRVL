@@ -82,3 +82,42 @@
     object-fit: cover;
     object-position: center;
 }
+/* Subscribe */
+.subscribe {
+    padding: 92px 24px 114px;
+    background-image: url(../img/png/background-2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.subscribe__title {
+    font-weight: 500;
+    font-size: 40px;
+    letter-spacing: 0.1em;
+}
+.subscribe__text {
+    max-width: 721px;
+    margin: 34px auto 100px;
+}
+.subscribe__form {
+    max-width: 335px;
+    margin: 0 auto;
+}
+.subscribe__input {
+    width: 100%;
+    margin: 0 0 25px;
+    padding: 0 0 14px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-align: center;
+    border-bottom: 1px solid var(--main-white);
+}
+.subscribe__input::-webkit-input-placeholder { color: var(--main-white); }
+.subscribe__button {
+    width: 100%;
+    height: 64px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    background: var(--main-black);
+    box-shadow: 0px 0px 50px 5px #813434;
+}
