@@ -121,3 +121,27 @@
     background: var(--main-black);
     box-shadow: 0px 0px 50px 5px #813434;
 }
+/* Footer */
+.footer {
+    height: 89px;
+    padding: 0 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer__messangers {
+    width: 170px;
+    display: flex;
+}
+.footer__link {
+    margin: 0 22px 0 0;
+}
+.footer__logo {
+    font-weight: 800;
+    font-size: 28px;
+    letter-spacing: 0.1em;
+}
+.footer__email {
+    width: 170px;
+    font-size: 16px;
+}
