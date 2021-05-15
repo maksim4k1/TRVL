@@ -184,3 +184,93 @@
         margin: 34px auto 76px;
     }
 }
+/* 800px */
+@media screen and (max-width: 800px) {
+    .about-us__images {
+        height: min-content;
+        width: 100%;
+        grid-template-columns: 1fr;
+        grid-template-rows: 186px 249px 457px;
+        grid-row-gap: 22px;
+    }
+    .about-us__image:nth-child(3) {
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+}
+/* 650px */
+@media screen and (max-width: 650px) {
+    .container{
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+    .explore{
+        height: 621px;
+    }
+    .explore__title{
+        margin: 208px 0 0;
+        padding: 0 0 0 10px;
+        font-size: 40px;
+    }
+    .explore__subtitle {
+        font-size: 18px;
+        margin: 40px 0 0;
+    }
+    .about-us{
+        padding-bottom: 67px;
+    }
+    .about-us__info{
+        margin: 0 0 47px;
+    }
+    .about-us__title{
+        font-size: 28px;
+        margin: 0 0 28px;
+    }
+    .about-us__text{
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 0.1em;
+    }
+    .subscribe{
+        padding-top: 68px;
+        padding-bottom: 69px;
+        text-align: start;
+    }
+    .subscribe__title{
+        font-size: 28px;
+    }
+    .subscribe__text{
+        margin: 33px 0 57px;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 0.1em;
+    }
+}
+/* 580px */
+@media screen and (max-width: 580px) {
+    .footer {
+        height: auto;
+        padding-top: 33px;
+        padding-bottom: 42px;
+        flex-flow: wrap;
+        align-items: inherit;
+        text-align: center;
+    }
+    .footer__messangers {
+        width: min-content;
+        margin: 0 auto;
+    }
+    .footer__link {
+        margin: 0 22px 0 0;
+    }
+    .footer__link:last-child{
+        margin: 0;
+    }
+    .footer__logo {
+        width: 100%;
+        margin: 30px 0;
+    }
+    .footer__email {
+        width: 100%;
+    }
+}
