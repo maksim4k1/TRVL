@@ -31,7 +31,7 @@ img{vertical-align: top;}
 h1,h2,h3,h4,h5,h6{font-size:inherit; font-weight: 400;}
 
 /* Правильное расположение footer внизу страницы */
-body{background: var(--main-black); color: var(--main-white); font-family: 'Montserrat', sans-serif;}
+body{background: var(--main-black); color: var(--main-white); font-family: 'Montserrat', sans-serif; font-size: 18px; letter-spacing: 0.1em;}
 
 /* Стили контейнеров */
 .container, .large_container{width: 100%; max-width: 1440px; margin: 0 auto;}
